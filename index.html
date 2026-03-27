@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Shyaka's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">🌟 Shyaka's Portfolio</div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ABOUT PAGE -->
+  <section id="about" class="about">
+    <h2>👤 About Me</h2>
+    <div class="about-content">
+      <p>Hi! I'm Shyaka, a Grade 7 student passionate about STEM and web development. I love learning new technologies and building interactive projects.</p>
+
+      <h3>🎯 My Skills</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Problem Solving</li>
+        <li>Web Design</li>
+        <li>Game Development</li>
+      </ul>
+
+      <h3>📚 What I'm Learning</h3>
+      <p>I'm currently focused on:</p>
+      <ul>
+        <li>Advanced CSS (Flexbox, Grid)</li>
+        <li>JavaScript DOM Manipulation</li>
+        <li>Responsive Web Design</li>
+        <li>Interactive Web Applications</li>
+      </ul>
+
+      <h3>🖼️ Portfolio Gallery</h3>
+      <div class="carousel-section">
+        <div class="carousel">
+          <img src="https://i.postimg.cc/HcFjRKQG/Gemini-Generated-Image-ht2kaeht2kaeht2k.png" alt="Image 1" class="carousel-img active">
+          <img src="https://i.postimg.cc/hzmKzGd4/Screenshot-2026-03-07-10-13-24.png" alt="Image 2" class="carousel-img">
+          <img src="https://i.postimg.cc/06TssqHY/Screenshot-2026-03-07-10-13-31.png" alt="Image 3" class="carousel-img">
+          <img src="https://i.postimg.cc/B8L0kvNB/Screenshot-2026-03-07-10-13-46.png" alt="Image 4" class="carousel-img">
+          <img src="https://i.postimg.cc/GB8CVpzs/Screenshot-2026-03-07-10-14-03.png" alt="Image 5" class="carousel-img">
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" onclick="prevImage()">⬅️ Previous</button>
+          <span class="carousel-counter"><span id="current">1</span> / <span id="total">5</span></span>
+          <button class="carousel-btn" onclick="nextImage()">Next ➡️</button>
+        </div>
+      </div>
+
+      <h3>📰 Latest STEM News</h3>
+      <div class="stem-news">
+        <div class="news-grid">
+          <div class="news-card">
+            <h4>🤖 AI & Machine Learning</h4>
+            <p>Artificial Intelligence is transforming how we solve problems. From chatbots to image recognition, AI is everywhere!</p>
+          </div>
+          <div class="news-card">
+            <h4>🌍 Climate Tech</h4>
+            <p>New technologies are helping us fight climate change. Solar panels, wind turbines, and green energy solutions are growing!</p>
+          </div>
+          <div class="news-card">
+            <h4>🚀 Space Exploration</h4>
+            <p>SpaceX, NASA, and other organizations are pushing the boundaries of space exploration. The future is exciting!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2024 Shyaka's Portfolio. All rights reserved. | Built with HTML, CSS & JavaScript 💻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
